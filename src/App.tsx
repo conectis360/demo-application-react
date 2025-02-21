@@ -1,5 +1,18 @@
+import Button from "./components/Button";
+
 function App() {
-  return <h1>Let's get started!</h1>;
+  return (
+    <main>
+      <p>
+        <Button el="button">A button</Button>
+      </p>
+      <p>
+        <Button el="anchor" href="https://googlw.com">
+          A button
+        </Button>
+      </p>
+    </main>
+  );
 }
 
 export default App;
