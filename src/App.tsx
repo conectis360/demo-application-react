@@ -7,7 +7,7 @@ function App() {
         <Button el="button">A button</Button>
       </p>
       <p>
-        <Button el="anchor" href="https://googlw.com">
+        <Button el="anchor" href="https://googlw.com" className="button">
           A button
         </Button>
       </p>
