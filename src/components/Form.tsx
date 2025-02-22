@@ -14,8 +14,8 @@ type FormProps = ComponentPropsWithoutRef<"form"> & {
   onSave: (value: unknown) => void;
 };
 
-const Form = forwardRef(function Form(
-  { onSave, children, ...otherProps }: FormProps,
+const Form = forwardRef<FormHandle, FormProps>(function Form(
+  { onSave, children, ...otherProps },
   ref
 ) {
   const form = useRef<HTMLFormElement>(null);
